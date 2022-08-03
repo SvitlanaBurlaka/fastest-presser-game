@@ -1,0 +1,106 @@
+body {
+    background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+}
+
+h1 {
+    color: #66db66d1;
+    text-align: center;
+    margin: 30px 0px 30px 0px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.containerTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#input {
+    width: 40%;
+    height: 30px;
+    border-radius: 7px;
+    box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
+}
+
+#startButton {
+    letter-spacing: 3px;
+    margin: 15px;
+    color: white;
+    background-color: #66db66d1;
+    width: 20%;
+    text-align: center;
+}
+
+.resultContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.pressL {
+    background-color: #daafbc;
+}
+
+.pressS {
+    background-color: #bc7b94;
+}
+
+.pressS,
+.pressL {
+    margin: 20px 0px 0px 0px;
+    width: 30%;
+    height: 250px;
+    text-align: center;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainP {
+    letter-spacing: 3px;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+
+button {
+    letter-spacing: 3px;
+    color: #8a3a3a;
+    border: none;
+    font-family: inherit;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #daafbc;
+    padding: 12px 25px;
+    border-radius: 50px;
+}
+
+#my-canvasLSide,
+#my-canvasSide {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.resultS,
+.resultL {
+    margin: 0;
+    color: white;
+    font-style: italic;
+    text-align: center;
+}
+
+.message {
+    color: #54d815;
+    font-style: italic;
+    text-align: center;
+    font-size: 25px;
+    text-transform: uppercase;
+}
