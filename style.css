@@ -17,7 +17,7 @@ h1 {
 }
 
 #input {
-    width: 40%;
+    width: 315px;
     height: 30px;
     border-radius: 7px;
     box-shadow: 0 1.75rem 3.5rem rgba(0, 0, 0, 0.1);
@@ -28,7 +28,6 @@ h1 {
     margin: 15px;
     color: white;
     background-color: #66db66d1;
-    width: 20%;
     text-align: center;
 }
 
@@ -104,3 +103,10 @@ button {
     font-size: 25px;
     text-transform: uppercase;
 }
+
+/* @media screen and (max-width: 615px) {
+    #startButton {
+        letter-spacing: 2px;
+    }
+
+} */
